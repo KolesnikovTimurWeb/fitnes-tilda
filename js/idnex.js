@@ -182,15 +182,15 @@ ScrollReveal({
    delay: 200,
    reset: false,
 });
-ScrollReveal().reveal(".global-item h1", { delay: 300, origin: "right", interval: 100 });
+ScrollReveal().reveal(".global-item h1", { delay: 200, origin: "right", interval: 100 });
 ScrollReveal().reveal(".global-item h2", { delay: 700, origin: "right"});
 ScrollReveal().reveal(".global-item p", { delay: 900, origin: "right"});
 ScrollReveal().reveal(".global-button", { delay: 1000, origin: "right"});
 ScrollReveal().reveal(".subglobal-item", { delay: 1400, origin: "right", interval: 100 });
-ScrollReveal().reveal(".staff-item", { delay: 300, origin: "top", interval: 100 });
-ScrollReveal().reveal(".room-item", { delay: 300, origin: "top", interval: 100 });
-ScrollReveal().reveal(".inkey-item", { delay: 300, origin: "top", interval: 100 });
-ScrollReveal().reveal(".category-item", { delay: 300, origin: "top", interval: 100 });
+ScrollReveal().reveal(".staff-item", { delay: 200, origin: "left", interval: 100 });
+ScrollReveal().reveal(".room-item", { delay: 200, origin: "left", interval: 100 });
+ScrollReveal().reveal(".inkey-item", { delay: 200, origin: "left", interval: 100 });
+ScrollReveal().reveal(".category-item", { delay: 200, origin: "left", interval: 100 });
 
 ScrollReveal().reveal(".title h2", { delay: 400, origin: "top" });
 ScrollReveal().reveal(".consultation-text h2", { delay: 400, origin: "left" });
